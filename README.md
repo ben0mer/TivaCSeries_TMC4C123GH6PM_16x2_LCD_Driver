@@ -1,7 +1,7 @@
 
 # 16x2 LCD 4 Bit Haberleşme Kütüphanesi
 Tiva C Series TMC4C123GH6PM 16x2 LCD 4 Bit Driver
-Bu kütüphane, 16x2 LCD ekranı 4 bit modunda kullanmak için yazılmıştır. LCD ekranı, GPIO portu B'nin 0, 1, 4, 5, 6 ve 7 numaralı pinlerine bağlanmalıdır. RS pinini GPIO portu B'nin 0 numaralı pinine, E pinini GPIO portu B'nin 1 numaralı pinine, D4 pinini GPIO portu B'nin 4 numaralı pinine, D5 pinini GPIO portu B'nin 5 numaralı pinine, D6 pinini GPIO portu B'nin 6 numaralı pinine, D7 pinini GPIO portu B'nin 7 numaralı pinine bağlayın. Kütüphaneyi kullanmak için önce lcdInit fonksiyonunu çağırın. Ardından, lcdClear, lcdSetCursor, lcdWrite, lcdPrint, lcdPrintLine gibi fonksiyonları kullanarak LCD ekranına metin yazabilirsiniz.
+Bu kütüphane, 16x2 LCD ekranı 4 bit modunda kullanmak için yazılmıştır. LCD ekranı, `GPIO portu B'nin 0, 1, 4, 5, 6 ve 7 numaralı pinlerine bağlanmalıdır.` `RS pinini GPIO portu B'nin 0 numaralı pinine`, `E pinini GPIO portu B'nin 1 numaralı pinine`, `D4 pinini GPIO portu B'nin 4 numaralı pinine`, `D5 pinini GPIO portu B'nin 5 numaralı pinine`, `D6 pinini GPIO portu B'nin 6 numaralı pinine`, `D7 pinini GPIO portu B'nin 7 numaralı pinine bağlayın`. Kütüphaneyi kullanmak için önce lcdInit fonksiyonunu çağırın. Ardından, lcdClear, lcdSetCursor, lcdWrite, lcdPrint, lcdPrintLine gibi fonksiyonları kullanarak LCD ekranına metin yazabilirsiniz.
 
 ## Kurulum
 
